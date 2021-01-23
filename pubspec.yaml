@@ -1,0 +1,60 @@
+name: uber_rider_app
+description: A new Flutter application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+  firebase_core: ^0.7.0
+  firebase_auth: ^0.20.0+1
+  firebase_database: ^6.0.0
+  fluttertoast: ^7.1.6
+  #Google Maps
+  google_maps_flutter: ^1.0.6
+  geolocator: ^6.1.13
+  flutter_polyline_points: ^0.2.4
+  font_awesome_flutter: ^8.11.0
+  #crashlytics
+  firebase_crashlytics: ^0.4.0+1
+
+  http: ^0.12.2
+  provider: ^4.3.2+3
+
+  animated_text_kit: ^3.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/
+
+  fonts:
+    - family: Signatra
+      fonts:
+        - asset: fonts/Signatra.ttf
+    - family: Brand-Regular
+      fonts:
+        - asset: fonts/bolt-regular.ttf
+    - family: Brand Bold
+      fonts:
+        - asset: fonts/bolt-semibold.ttf
